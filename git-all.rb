@@ -2,8 +2,8 @@ require "formula"
 
 class GitAll < Formula
   homepage "http://www.doublenot.co/git-all/"
-  url "https://github.com/doublenot/git-all/archive/0.0.2.tar.gz"
-  sha256 "bd99698918ee52d172fa9bcbf9cf95e6e8925730dd7f9e60a77323551c607c01"
+  url "https://github.com/doublenot/git-all/archive/0.0.3.tar.gz"
+  sha256 "7e5faa9087dccfa4c332cf6903a0c98ae0a36184de53a04e68c7ecc1e4d9a33a"
 
   def install
     bin.install "git-all-clone"
